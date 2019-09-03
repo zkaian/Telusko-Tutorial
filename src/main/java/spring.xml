@@ -11,7 +11,4 @@
    
    <context:component-scan base-package="telusko"></context:component-scan>
    
-   <bean id="tyre" class="telusko.Tyre">
-   	<constructor-arg value="Ceat"></constructor-arg>
-   </bean>
 </beans>
