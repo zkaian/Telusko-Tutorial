@@ -12,7 +12,7 @@ public class TeluskoTutorialApplication {
 		//SpringApplication.run(TeluskoTutorialApplication.class, args);
 		ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
 		
-		Vehicle obj = (Vehicle)context.getBean("vehicle");
+		Vehicle obj = (Vehicle)context.getBean("car");
 		obj.drive();
 	}
 
