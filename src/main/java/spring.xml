@@ -12,6 +12,6 @@
    <context:component-scan base-package="telusko"></context:component-scan>
    
    <bean id="tyre" class="telusko.Tyre">
-   	<property name="brand" value="MRF"></property>
+   	<property name="brand" value="Ceat"></property>
    </bean>
 </beans>
