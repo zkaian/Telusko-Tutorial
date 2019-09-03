@@ -16,7 +16,7 @@ public class TeluskoTutorialApplication {
 		//obj.drive();
 		
 		Tyre t = (Tyre)context.getBean("tyre");
-		System.out.print(t.getBrand());
+		System.out.print(t);
 	}
 
 }
